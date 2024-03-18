@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Halaman HTML Er</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Erlina Putri">
+        <meta name="233307046" content="12345">
+    </head>
+
+    <style>
+        div p { /* no 1 */
+            color:red;
+        }
+        div > p { /* no 2 */
+            background-color: yellow;
+        }
+        div + p { /* no 3 */
+            background-color: darkgray;
+        }
+        div ~ p { /* no 4 */
+            color: cyan;
+        }
+    </style>
+
+    <header>
+        <div>
+            <p>kesimpulan no.1: menargetkan elemen p berada dalam elemen div, dengan p warna merah.</p>
+            <p>kesimpulan no.2: menargetkan elemen p menjadi anak langsung dari elemen div, dengan latar belakang dari elemen p yaitu kuning.</p>
+
+        </div>
+            <p>kesimpulan no.3: menargetkan elemen p yang mengikuti elemen div, dengan latar belakang darkgray dari elemen p</p>
+            <p>kesimpulan no.4: menargetkan elemen p yang berada dalam satu level hierarki dengan elemen div, dengan warna cyan</p>
+    </header>
+</html>
