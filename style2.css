@@ -14,7 +14,7 @@ p.group {
     background: #0000FF;
 }
 
-p.one {
+p#one {
     color: #00FF00;
     background: #FFFFFF;
 }
